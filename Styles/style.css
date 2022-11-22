@@ -250,12 +250,11 @@
   }
 
   .cuadrito{
-    width: 100%;
+    width: 310%;
     /* background: red; */
     text-align: center;
     display: flex;
-    justify-content: start;
-    align-items: center;
+    position: relative;
   }
 
   .textoHorarios{
@@ -272,14 +271,15 @@
     top: 60px;
   }
 
+
   .form__input{
     display: block;
     margin-top: 0.5rem;
     padding: .5rem 0.5rem;
     border-radius: 5px;
     border: 0;
-    width: 200%;
-    outline: solid 2px rgb(0,133,103);
+    width: 300%;
+    outline: solid 2px rgb(174, 214, 205);
     position: relative;
     top: 60px;
   }
@@ -287,10 +287,6 @@
   .blanco{
     background-color: rgb(198,233,217);
     padding: 50px;
-  }
-
-  .loremFalso{
-    color: white;
   }
 
   @keyframes to-top {
